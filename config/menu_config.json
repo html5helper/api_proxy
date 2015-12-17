@@ -1,0 +1,29 @@
+[
+    {"id": "dashboard", "text": "控制台", "icon": "fa-dashboard","view":"views/dashboard", "expanded": true,"level":1},
+    {"id": "weixin", "text": "微信统计", "icon": "fa-bar-chart-o","view":"", "expanded": true,"level":1,
+        "nodes": [
+            {"id": "wx_dy", "text": "订阅号数据", "icon": "fa-star-empty","view":"views/weixin/wx_dy","level":1},
+            {"id": "wx_fw", "text": "服务号数据", "icon": "fa-star-empty","view":"views/weixin/wx_fw.html","level":1}
+        ]
+    },
+    {"id": "weike", "text": "微课统计", "icon": "fa-bar-chart-o","view":"", "expanded": true,"level":1,
+        "nodes": [
+            {"id": "wk_main", "text": "微课概览", "icon": "fa-star-empty","view":"views/weike/main","level":1},
+            {"id": "wk_teacher", "text": "讲师统计", "icon": "fa-star-empty","view":"views/weike/teacher","level":1},
+            {"id": "wk_apply", "text": "报名统计", "icon": "fa-star-empty","view":"views/weike/apply","level":1},
+            {"id": "wk_prepare", "text": "预习统计", "icon": "fa-star-empty","view":"views/weike/prepare","level":1},
+            {"id": "wk_live", "text": "直播统计", "icon": "fa-star-empty","view":"views/weike/live","level":1},
+            {"id": "wk_qa", "text": "答疑统计", "icon": "fa-star-empty","view":"views/weike/qa","level":1},
+            {"id": "wk_feedback", "text": "反馈统计", "icon": "fa-star-empty","view":"views/weike/feedback/index.html","level":1},
+            {"id": "wk_playback", "text": "回放统计", "icon": "fa-star-empty","view":"views/weike/playback","level":1},
+            {"id": "wk_market", "text": "推广位统计", "icon": "fa-star-empty","view":"views/weike/market","level":1},
+            {"id": "wk_active", "text": "活跃质量", "icon": "fa-star-empty","view":"views/weike/active","level":1}
+        ]
+    },
+    {"id": "setting", "text": "系统管理", "icon": "fa-wrench","view":"","level":0,
+        "nodes": [
+            {"id": "admin_manager", "text": "用户管理", "icon": "fa-star-empty","view":"views/sys/admin","level":1},
+            {"id": "sys_setting", "text": "系统设置", "icon": "fa-star-empty","view":"views/sys/setting","level":1}
+        ]
+    }
+]

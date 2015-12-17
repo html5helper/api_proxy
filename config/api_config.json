@@ -1,0 +1,6 @@
+{
+    "http://admin.xx.xxx.com/rpc/course":{"name": "获取xx列表","method":["rpc","post"]},
+    "http://xx.xxx.com/heartbeat/stat/looked/count/uv":{"name": "用户UV","method":"get"},
+    "http://xx.xxx.com/heartbeat/stat/problems/10":{"name": "获取问题反馈","method":"get"},
+    "http://xx.xxx.com/monitor/course_census":{"name": "用户归总数据","method":"get"}
+}
